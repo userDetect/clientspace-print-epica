@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="print-demo-id" content="artara">
+<meta name="business" content="Артара">
+<meta name="description" content="Деловая полиграфия, книги, календари и рекламные материалы. Подготовка дизайна и печать по готовому макету.">
+<title>Артара · концепт сайта ClientSpace</title>
+<link rel="stylesheet" href="site.css">
+<style>:root{--accent:#a1243d;--cover:color-mix(in srgb,#a1243d,#10151c 62%);--cover-tint:color-mix(in srgb,#a1243d,#fff9ee 87%)}</style>
+<script src="site.js" defer></script>
+</head>
+<body class="press variant-2">
+<div class="demo-bar"><div class="shell"><span>Демо-концепт студии ClientSpace</span><a href="https://artara-nn.ru/" rel="noopener">Действующий сайт ↗</a></div></div>
+<header class="site-header"><div class="shell">
+<a class="brand" href="#top"><span class="mark" aria-hidden="true">А</span>Артара</a>
+<nav aria-label="Разделы сайта"><a href="#catalog">Продукция и услуги</a><a href="#terms">Условия</a><a href="#contacts">Контакты</a></nav>
+<a class="cta secondary" href="#order">Заполнить бриф <span aria-hidden="true">↘</span></a>
+</div></header>
+<main id="top">
+<div class="shell"><section class="hero" aria-labelledby="hero-title">
+<div class="hero-copy"><p class="eyebrow">Нижний Новгород · Типография</p><h1 id="hero-title">Полиграфия на заказ в Нижнем Новгороде</h1><p>Деловая полиграфия, книги, календари и рекламные материалы. Подготовка дизайна и печать по готовому макету.</p>
+<div class="hero-actions"><a class="cta" href="#order">Подготовить бриф для расчёта <span aria-hidden="true">↘</span></a><a class="cta secondary" href="#catalog">Посмотреть услуги</a></div>
+</div><figure class="hero-art" aria-hidden="true"><div class="ink-art"><div class="sheet"></div><div class="sheet"></div><div class="sheet"><span>АР</span></div></div></figure></section></div>
+<section id="catalog" class="section shell">
+<div class="section-lead"><h2>Продукция и услуги</h2><label class="catalog-search"><span>Найти услугу</span><input id="catalog-search" type="search" placeholder="Начните вводить название"></label></div>
+<div class="products"><article class="product" data-catalog-item><div><h3>Деловая полиграфия</h3><p>Визитки, листовки, бланки и конверты.</p></div><button type="button" data-product="Деловая полиграфия" aria-label="В бриф — Деловая полиграфия">↗</button></article><article class="product" data-catalog-item><div><h3>Книги и каталоги</h3><p>Печать книг, каталогов, брошюр и другой многостраничной продукции.</p></div><button type="button" data-product="Книги и каталоги" aria-label="В бриф — Книги и каталоги">↗</button></article><article class="product" data-catalog-item><div><h3>Календари и блокноты</h3><p>Карманные, квартальные и настольные календари, блокноты на пружине.</p></div><button type="button" data-product="Календари и блокноты" aria-label="В бриф — Календари и блокноты">↗</button></article><article class="product" data-catalog-item><div><h3>Наружная реклама</h3><p>Широкоформатная печать на плёнке, баннеры и таблички.</p></div><button type="button" data-product="Наружная реклама" aria-label="В бриф — Наружная реклама">↗</button></article><article class="product" data-catalog-item><div><h3>Сувениры</h3><p>Фирменные пакеты, кружки и другие изделия с символикой.</p></div><button type="button" data-product="Сувениры" aria-label="В бриф — Сувениры">↗</button></article><article class="product" data-catalog-item><div><h3>Дизайн и вёрстка</h3><p>Подготовка оригинал-макета или проверка файла перед печатью.</p></div><button type="button" data-product="Дизайн и вёрстка" aria-label="В бриф — Дизайн и вёрстка">↗</button></article></div><p id="no-products" hidden>По этому запросу ничего не найдено.</p>
+</section>
+
+
+<section id="order" class="order-wrap">
+<div class="shell order-grid"><div class="order-intro"><h2>Подготовить бриф для расчёта</h2><p>Укажите изделие и параметры заказа. По ним можно согласовать технологию, стоимость и срок.</p><div class="quick-picks"><button type="button" data-product="Деловая полиграфия" class="quick-choice">Деловая полиграфия</button><button type="button" data-product="Книги и каталоги" class="quick-choice">Книги и каталоги</button><button type="button" data-product="Календари и блокноты" class="quick-choice">Календари и блокноты</button></div></div>
+<form id="brief" class="order-box">
+<div class="form-grid">
+<label class="wide"><span>Вид заказа</span><select name="product" required><option value="">Выберите услугу</option><option value="Деловая полиграфия">Деловая полиграфия</option><option value="Книги и каталоги">Книги и каталоги</option><option value="Календари и блокноты">Календари и блокноты</option><option value="Наружная реклама">Наружная реклама</option><option value="Сувениры">Сувениры</option><option value="Дизайн и вёрстка">Дизайн и вёрстка</option></select></label>
+<label class=""><span>Формат или размеры</span><input type="text" name="format"></label><label class=""><span>Тираж, шт.</span><input type="number" name="quantity" min="1" step="any"></label><label class=""><span>Бумага или материал</span><input type="text" name="material"></label><label class=""><span>Когда нужен заказ</span><input type="date" name="deadline"></label><label class="wide"><span>Макет</span><input type="file" name="artwork" aria-describedby="file-hint"><small id="file-hint">Можно указать макет, чертёж или фото. В демо сохранится имя файла.</small></label><label class="wide"><span>Цветность, отделка и пожелания</span><textarea name="notes" rows="3"></textarea></label><label class=""><span>Телефон для ответа (необязательно)</span><input type="tel" name="contact" placeholder="+7 (___) ___-__-__" autocomplete="tel"></label>
+</div>
+
+<button class="cta" type="submit">Сформировать бриф <span aria-hidden="true">↗</span></button>
+<small>Демонстрационная форма. Введённые данные остаются в браузере.</small>
+<div class="summary" id="brief-summary" tabindex="-1" hidden><pre id="summary-text"></pre>
+<button class="cta secondary" type="button" id="copy-brief">Копировать</button>
+<button class="cta secondary" type="button" id="download-brief">Скачать текст</button>
+<span id="copy-status" role="status"></span></div>
+</form></div></section>
+<section id="terms" class="section shell"><div class="section-lead"><h2>Условия заказа</h2><p>Итоговые параметры, стоимость и дату выполнения подтверждает компания.</p></div><div class="facts"><details><summary>Типография печатает деловую полиграфию, книги, календари и рекламные материалы.</summary><p><a href="https://artara-nn.ru/">Источник на сайте компании ↗</a></p></details><details><summary>В портфолио указаны формат, плотность бумаги, ламинация и способ сборки отдельных работ.</summary><p><a href="https://artara-nn.ru/portfolio">Источник на сайте компании ↗</a></p></details><details><summary>На сайте указана возможность доставки по Нижнему Новгороду и в другие города.</summary><p><a href="https://artara-nn.ru/kontakt">Источник на сайте компании ↗</a></p></details></div></section>
+</main>
+<footer id="contacts" class="contacts"><div class="shell">
+<div><h3>Артара</h3><p>Нижний Новгород · ул. Семашко, 5</p><div class="footer-links"><a href="tel:+78312912515">+7 (831) 291-25-15</a><a href="mailto:artara-nn@ya.ru">artara-nn@ya.ru</a><a href="https://artara-nn.ru/">artara-nn.ru</a></div></div>
+<div><p>Демонстрационная версия по открытым материалам компании.</p><div class="footer-links"><a href="https://client-space.ru/">Сайт студии ClientSpace ↗</a></div></div>
+</div></footer>
+</body></html>

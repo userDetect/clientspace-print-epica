@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="print-demo-id" content="radonezh">
+<meta name="business" content="Радонеж">
+<meta name="description" content="Подготовка рукописи, вёрстка, пробный экземпляр и печать тиража. Можно запросить помощь с ISBN и допечаткой.">
+<title>Радонеж · концепт сайта ClientSpace</title>
+<link rel="stylesheet" href="site.css">
+<style>:root{--accent:#784a31;--cover:color-mix(in srgb,#784a31,#10151c 62%);--cover-tint:color-mix(in srgb,#784a31,#fff9ee 87%)}</style>
+<script src="site.js" defer></script>
+</head>
+<body class="press variant-1">
+<div class="demo-bar"><div class="shell"><span>Демо-концепт студии ClientSpace</span><a href="https://radnn.ru/service/izdatelstvo-pechat-knig/" rel="noopener">Действующий сайт ↗</a></div></div>
+<header class="site-header"><div class="shell">
+<a class="brand" href="#top"><span class="mark" aria-hidden="true">Р</span>Радонеж</a>
+<nav aria-label="Разделы сайта"><a href="#catalog">Продукция и услуги</a><a href="#terms">Условия</a><a href="#contacts">Контакты</a></nav>
+<a class="cta secondary" href="#order">Заполнить бриф <span aria-hidden="true">↘</span></a>
+</div></header>
+<main id="top">
+<div class="shell"><section class="hero" aria-labelledby="hero-title">
+<div class="hero-copy"><p class="eyebrow">Нижний Новгород · Издательство и типография</p><h1 id="hero-title">Издание и печать книг в Нижнем Новгороде</h1><p>Подготовка рукописи, вёрстка, пробный экземпляр и печать тиража. Можно запросить помощь с ISBN и допечаткой.</p>
+<div class="hero-actions"><a class="cta" href="#order">Подготовить бриф для расчёта <span aria-hidden="true">↘</span></a><a class="cta secondary" href="#catalog">Посмотреть услуги</a></div>
+</div><figure class="hero-art" aria-hidden="true"><div class="ink-art"><div class="sheet"></div><div class="sheet"></div><div class="sheet"><span>РА</span></div></div></figure></section></div>
+<section id="catalog" class="section shell">
+<div class="section-lead"><h2>Продукция и услуги</h2><label class="catalog-search"><span>Найти услугу</span><input id="catalog-search" type="search" placeholder="Начните вводить название"></label></div>
+<div class="products"><article class="product" data-catalog-item><div><h3>Книги в мягком переплёте</h3><p>Чёрно-белый книжный блок, цветная обложка и клеевое бесшвейное скрепление.</p></div><button type="button" data-product="Книги в мягком переплёте" aria-label="В бриф — Книги в мягком переплёте">↗</button></article><article class="product" data-catalog-item><div><h3>Цветные книги и вставки</h3><p>Цветная печать книжного блока или отдельных страниц в чёрно-белом издании.</p></div><button type="button" data-product="Цветные книги и вставки" aria-label="В бриф — Цветные книги и вставки">↗</button></article><article class="product" data-catalog-item><div><h3>Подготовка рукописи</h3><p>Корректура, редактура, вёрстка и оформление обложки.</p></div><button type="button" data-product="Подготовка рукописи" aria-label="В бриф — Подготовка рукописи">↗</button></article><article class="product" data-catalog-item><div><h3>Подарочные книги</h3><p>Книги индивидуального формата, с фотографиями и выбранной обложкой.</p></div><button type="button" data-product="Подарочные книги" aria-label="В бриф — Подарочные книги">↗</button></article><article class="product" data-catalog-item><div><h3>Допечатка тиража</h3><p>Заказ дополнительных экземпляров ранее напечатанной книги.</p></div><button type="button" data-product="Допечатка тиража" aria-label="В бриф — Допечатка тиража">↗</button></article><article class="product" data-catalog-item><div><h3>Пробный экземпляр и ISBN</h3><p>Сигнальный экземпляр перед тиражом и помощь с присвоением ISBN по запросу.</p></div><button type="button" data-product="Пробный экземпляр и ISBN" aria-label="В бриф — Пробный экземпляр и ISBN">↗</button></article></div><p id="no-products" hidden>По этому запросу ничего не найдено.</p>
+</section>
+
+
+<section id="order" class="order-wrap">
+<div class="shell order-grid"><div class="order-intro"><h2>Подготовить бриф для расчёта</h2><p>Укажите изделие и параметры заказа. По ним можно согласовать технологию, стоимость и срок.</p><div class="quick-picks"><button type="button" data-product="Книги в мягком переплёте" class="quick-choice">Книги в мягком переплёте</button><button type="button" data-product="Цветные книги и вставки" class="quick-choice">Цветные книги и вставки</button><button type="button" data-product="Подготовка рукописи" class="quick-choice">Подготовка рукописи</button></div></div>
+<form id="brief" class="order-box">
+<div class="form-grid">
+<label class="wide"><span>Вид заказа</span><select name="product" required><option value="">Выберите услугу</option><option value="Книги в мягком переплёте">Книги в мягком переплёте</option><option value="Цветные книги и вставки">Цветные книги и вставки</option><option value="Подготовка рукописи">Подготовка рукописи</option><option value="Подарочные книги">Подарочные книги</option><option value="Допечатка тиража">Допечатка тиража</option><option value="Пробный экземпляр и ISBN">Пробный экземпляр и ISBN</option></select></label>
+<label class=""><span>Формат книги</span><select name="format"><option value="">Выбрать</option><option value="А6">А6</option><option value="А5">А5</option><option value="А4">А4</option><option value="А3">А3</option><option value="Индивидуальный">Индивидуальный</option></select></label><label class=""><span>Количество страниц</span><input type="number" name="pages" min="1" step="any"></label><label class=""><span>Тираж, экз.</span><input type="number" name="quantity" min="1" step="any"></label><label class=""><span>Печать блока</span><select name="color"><option value="">Выбрать</option><option value="Чёрно-белая">Чёрно-белая</option><option value="Цветная">Цветная</option><option value="С цветными вставками">С цветными вставками</option></select></label><label class=""><span>Обложка</span><select name="binding"><option value="">Выбрать</option><option value="Мягкая">Мягкая</option><option value="Твёрдая">Твёрдая</option><option value="Уточнить">Уточнить</option></select></label><label class=""><span>Что нужно</span><select name="publication"><option value="">Выбрать</option><option value="Печать по макету">Печать по макету</option><option value="Подготовка к изданию">Подготовка к изданию</option><option value="Уточнить">Уточнить</option></select></label><label class="wide"><span>Рукопись или вёрстка</span><input type="file" name="artwork" aria-describedby="file-hint"><small id="file-hint">Для оценки проекта можно подготовить рукопись в Word или PDF либо готовый макет.</small></label><label class="wide"><span>Обложка, ISBN, сигнальный экземпляр и срок</span><textarea name="notes" rows="3"></textarea></label><label class=""><span>Телефон для ответа (необязательно)</span><input type="tel" name="contact" placeholder="+7 (___) ___-__-__" autocomplete="tel"></label>
+</div>
+
+<button class="cta" type="submit">Сформировать бриф <span aria-hidden="true">↗</span></button>
+<small>Демонстрационная форма. Введённые данные остаются в браузере.</small>
+<div class="summary" id="brief-summary" tabindex="-1" hidden><pre id="summary-text"></pre>
+<button class="cta secondary" type="button" id="copy-brief">Копировать</button>
+<button class="cta secondary" type="button" id="download-brief">Скачать текст</button>
+<span id="copy-status" role="status"></span></div>
+</form></div></section>
+<section id="terms" class="section shell"><div class="section-lead"><h2>Условия заказа</h2><p>Итоговые параметры, стоимость и дату выполнения подтверждает компания.</p></div><div class="facts"><details><summary>Издательство работает с готовой рукописью или макетом в Word/PDF и предлагает полный цикл подготовки.</summary><p><a href="https://radnn.ru/service/izdatelstvo-pechat-knig/">Источник на сайте компании ↗</a></p></details><details><summary>На странице опубликованы примеры чёрно-белых и цветных книг, а также книг с цветными вставками.</summary><p><a href="https://radnn.ru/service/izdatelstvo-pechat-knig/">Источник на сайте компании ↗</a></p></details><details><summary>Описаны сигнальный экземпляр, допечатка тиража и помощь с ISBN.</summary><p><a href="https://radnn.ru/service/izdatelstvo-pechat-knig/">Источник на сайте компании ↗</a></p></details></div></section>
+</main>
+<footer id="contacts" class="contacts"><div class="shell">
+<div><h3>Радонеж</h3><p>Нижний Новгород · ул. Интернациональная, 100</p><div class="footer-links"><a href="tel:+79100063527">+7 (910) 006-35-27</a><a href="mailto:rad.nnov@mail.ru">rad.nnov@mail.ru</a><a href="https://radnn.ru/service/izdatelstvo-pechat-knig/">radnn.ru</a></div></div>
+<div><p>Демонстрационная версия по открытым материалам компании.</p><div class="footer-links"><a href="https://client-space.ru/">Сайт студии ClientSpace ↗</a></div></div>
+</div></footer>
+</body></html>

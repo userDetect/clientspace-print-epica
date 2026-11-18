@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="print-demo-id" content="arztip">
+<meta name="business" content="Арзамасская типография">
+<meta name="description" content="Печать, переплёт и подготовка макетов в Арзамасе. Для нестандартного тиража можно собрать техническое задание.">
+<title>Арзамасская типография · концепт сайта ClientSpace</title>
+<link rel="stylesheet" href="site.css">
+<style>:root{--accent:#24564e;--cover:color-mix(in srgb,#24564e,#10151c 62%);--cover-tint:color-mix(in srgb,#24564e,#fff9ee 87%)}</style>
+<script src="site.js" defer></script><script src="repeat.js" defer></script>
+</head>
+<body class="press variant-0">
+<div class="demo-bar"><div class="shell"><span>Демо-концепт студии ClientSpace</span><a href="https://arztip.ru/" rel="noopener">Действующий сайт ↗</a></div></div>
+<header class="site-header"><div class="shell">
+<a class="brand" href="#top"><span class="mark" aria-hidden="true">А</span>Арзамасская типография</a>
+<nav aria-label="Разделы сайта"><a href="#catalog">Продукция и услуги</a><a href="#terms">Условия</a><a href="#contacts">Контакты</a></nav>
+<a class="cta secondary" href="#order">Заполнить бриф <span aria-hidden="true">↘</span></a>
+</div></header>
+<main id="top">
+<div class="shell"><section class="hero" aria-labelledby="hero-title">
+<div class="hero-copy"><p class="eyebrow">Арзамас · Типография</p><h1 id="hero-title">Полиграфия для работы и идей</h1><p>Печать, переплёт и подготовка макетов в Арзамасе. Для нестандартного тиража можно собрать техническое задание.</p>
+<div class="hero-actions"><a class="cta" href="#order">Подготовить бриф для расчёта <span aria-hidden="true">↘</span></a><a class="cta secondary" href="#catalog">Посмотреть услуги</a></div>
+</div><figure class="hero-art" aria-hidden="true"><div class="ink-art"><div class="sheet"></div><div class="sheet"></div><div class="sheet"><span>АР</span></div></div></figure></section></div>
+<section id="catalog" class="section shell">
+<div class="section-lead"><h2>Продукция и услуги</h2><label class="catalog-search"><span>Найти услугу</span><input id="catalog-search" type="search" placeholder="Начните вводить название"></label></div>
+<div class="products"><article class="product" data-catalog-item><div><h3>Оперативная печать</h3><p>Документы, чертежи и плакаты по готовому файлу.</p></div><button type="button" data-product="Оперативная печать" aria-label="В бриф — Оперативная печать">↗</button></article><article class="product" data-catalog-item><div><h3>Полиграфия для бизнеса</h3><p>Визитки, листовки и буклеты. Для листовок доступны форматы А6–А3.</p></div><button type="button" data-product="Полиграфия для бизнеса" aria-label="В бриф — Полиграфия для бизнеса">↗</button></article><article class="product" data-catalog-item><div><h3>Книги и переплёт</h3><p>Книги, журналы учёта, блокноты и переплёт документов.</p></div><button type="button" data-product="Книги и переплёт" aria-label="В бриф — Книги и переплёт">↗</button></article><article class="product" data-catalog-item><div><h3>Наклейки и этикетки</h3><p>Наклейки, стикерпаки и бирки, параметры упаковки согласуются отдельно.</p></div><button type="button" data-product="Наклейки и этикетки" aria-label="В бриф — Наклейки и этикетки">↗</button></article><article class="product" data-catalog-item><div><h3>Календари</h3><p>Квартальные календари и настольные календари-домики.</p></div><button type="button" data-product="Календари" aria-label="В бриф — Календари">↗</button></article><article class="product" data-catalog-item><div><h3>Штампы и деловая печать</h3><p>Изготовление печатей и штампов, бланки, каталоги и корпоративные издания.</p></div><button type="button" data-product="Штампы и деловая печать" aria-label="В бриф — Штампы и деловая печать">↗</button></article></div><p id="no-products" hidden>По этому запросу ничего не найдено.</p>
+</section>
+
+
+<section id="order" class="order-wrap">
+<div class="shell order-grid"><div class="order-intro"><h2>Подготовить бриф для расчёта</h2><p>Укажите изделие и параметры заказа. По ним можно согласовать технологию, стоимость и срок.</p><div class="quick-picks"><button type="button" data-product="Оперативная печать" class="quick-choice">Оперативная печать</button><button type="button" data-product="Полиграфия для бизнеса" class="quick-choice">Полиграфия для бизнеса</button><button type="button" data-product="Книги и переплёт" class="quick-choice">Книги и переплёт</button><button class="quick-choice" type="button" id="restore-repeat" hidden>Восстановить прошлый бриф</button><p id="repeat-status" role="status"></p></div></div>
+<form id="brief" class="order-box">
+<div class="form-grid">
+<label class="wide"><span>Вид заказа</span><select name="product" required><option value="">Выберите услугу</option><option value="Оперативная печать">Оперативная печать</option><option value="Полиграфия для бизнеса">Полиграфия для бизнеса</option><option value="Книги и переплёт">Книги и переплёт</option><option value="Наклейки и этикетки">Наклейки и этикетки</option><option value="Календари">Календари</option><option value="Штампы и деловая печать">Штампы и деловая печать</option></select></label>
+<label class=""><span>Тираж, экз.</span><input type="number" name="quantity" min="1" step="any"></label><label class=""><span>Формат готового изделия</span><input type="text" name="format"></label><label class="" data-products="2" hidden><span>Количество полос для издания</span><input type="number" name="pages" min="1" step="any"></label><label class=""><span>Бумага и цветность</span><input type="text" name="paper"></label><label class="" data-products="2" hidden><span>Переплёт или отделка</span><input type="text" name="binding"></label><label class=""><span>Получение</span><select name="receiving"><option value="">Выбрать</option><option value="Самовывоз">Самовывоз</option><option value="Доставка СДЭК">Доставка СДЭК</option><option value="Уточнить">Уточнить</option></select></label><label class="wide"><span>Макет или техническое задание</span><input type="file" name="artwork" aria-describedby="file-hint"><small id="file-hint">Можно указать макет, чертёж или фото. В демо сохранится имя файла.</small></label><label class=""><span>Желаемый срок</span><input type="date" name="deadline"></label><label class=""><span>Телефон для ответа (необязательно)</span><input type="tel" name="contact" placeholder="+7 (___) ___-__-__" autocomplete="tel"></label>
+</div>
+
+<button class="cta" type="submit">Сформировать бриф <span aria-hidden="true">↗</span></button>
+<small>Демонстрационная форма. Введённые данные остаются в браузере.</small>
+<div class="summary" id="brief-summary" tabindex="-1" hidden><pre id="summary-text"></pre>
+<button class="cta secondary" type="button" id="copy-brief">Копировать</button>
+<button class="cta secondary" type="button" id="download-brief">Скачать текст</button><button class="cta secondary" type="button" id="save-repeat">Сохранить параметры для повтора</button>
+<span id="copy-status" role="status"></span></div>
+</form></div></section>
+<section id="terms" class="section shell"><div class="section-lead"><h2>Условия заказа</h2><p>Итоговые параметры, стоимость и дату выполнения подтверждает компания.</p></div><div class="facts"><details><summary>У типографии есть отдельный сайт с каталогом, онлайн-расчётом некоторых изделий и заявкой с вложением.</summary><p><a href="https://arztip.ru/">Источник на сайте компании ↗</a></p></details><details><summary>На странице контактов заявлены самовывоз и отправка через СДЭК.</summary><p><a href="https://arztip.ru/">Источник на сайте компании ↗</a></p></details><details><summary>Карточка Яндекс Бизнеса публикует тот же адрес и рабочую почту.</summary><p><a href="https://arztip.clients.site/">Источник на сайте компании ↗</a></p></details></div></section>
+</main>
+<footer id="contacts" class="contacts"><div class="shell">
+<div><h3>Арзамасская типография</h3><p>Арзамас · Арзамас, ул. Куликова, 55</p><div class="footer-links"><a href="tel:+78314729040">+7 (831) 472-90-40</a><a href="mailto:zakaz@arztip.ru">zakaz@arztip.ru</a><a href="https://arztip.ru/">arztip.ru</a></div></div>
+<div><p>Демонстрационная версия по открытым материалам компании.</p><div class="footer-links"><a href="https://client-space.ru/">Сайт студии ClientSpace ↗</a></div></div>
+</div></footer>
+</body></html>

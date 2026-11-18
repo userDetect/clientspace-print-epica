@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="print-demo-id" content="neonroom">
+<meta name="business" content="Neonroom.nn">
+<meta name="description" content="Световые надписи, логотипы и панно. Соберите параметры будущей вывески, чтобы обсудить эскиз и стоимость.">
+<title>Neonroom.nn · концепт сайта ClientSpace</title>
+<link rel="stylesheet" href="site.css">
+<style>:root{--accent:#593c88;--cover:color-mix(in srgb,#593c88,#10151c 62%);--cover-tint:color-mix(in srgb,#593c88,#fff9ee 87%)}</style>
+<script src="site.js" defer></script>
+</head>
+<body class="signage variant-1">
+<div class="demo-bar"><div class="shell"><span>Демо-концепт студии ClientSpace</span><a href="https://neonroomnn.ru/" rel="noopener">Действующий сайт ↗</a></div></div>
+<header class="site-header"><div class="shell">
+<a class="brand" href="#top"><span class="mark" aria-hidden="true">N</span>Neonroom.nn</a>
+<nav aria-label="Разделы сайта"><a href="#catalog">Конструкции и услуги</a><a href="#terms">Условия</a><a href="#contacts">Контакты</a></nav>
+<a class="cta secondary" href="#order">Заполнить бриф <span aria-hidden="true">↘</span></a>
+</div></header>
+<main id="top">
+<div class="shell"><section class="hero" aria-labelledby="hero-title">
+<div class="hero-copy"><p class="eyebrow">Нижний Новгород · Вывески</p><h1 id="hero-title">Неон, который подходит месту</h1><p>Световые надписи, логотипы и панно. Соберите параметры будущей вывески, чтобы обсудить эскиз и стоимость.</p>
+<div class="hero-actions"><a class="cta" href="#order">Подготовить бриф для расчёта <span aria-hidden="true">↘</span></a><a class="cta secondary" href="#catalog">Посмотреть услуги</a></div>
+</div><figure class="hero-art with-photo"><img src="photo-1.webp" alt="Работа из портфолио Neonroom.nn" fetchpriority="high"><figcaption>Работа из портфолио Neonroom.nn</figcaption></figure></section></div>
+<section id="catalog" class="section shell">
+<div class="section-lead"><h2>Конструкции и услуги</h2><label class="catalog-search"><span>Найти услугу</span><input id="catalog-search" type="search" placeholder="Начните вводить название"></label></div>
+<div class="products"><article class="product" data-catalog-item><div><h3>Неоновая надпись</h3><p>Светящаяся фраза или типографика под интерьер.</p></div><button type="button" data-product="Неоновая надпись" aria-label="В бриф — Неоновая надпись">↗</button></article><article class="product" data-catalog-item><div><h3>Логотип для бизнеса</h3><p>Световой логотип для магазина, офиса или витрины.</p></div><button type="button" data-product="Логотип для бизнеса" aria-label="В бриф — Логотип для бизнеса">↗</button></article><article class="product" data-catalog-item><div><h3>Неоновое панно</h3><p>Световая графика для стены или зоны оформления.</p></div><button type="button" data-product="Неоновое панно" aria-label="В бриф — Неоновое панно">↗</button></article><article class="product" data-catalog-item><div><h3>Макет на фотографии</h3><p>Примерка оформления по фото предполагаемого места установки.</p></div><button type="button" data-product="Макет на фотографии" aria-label="В бриф — Макет на фотографии">↗</button></article></div><p id="no-products" hidden>По этому запросу ничего не найдено.</p>
+</section>
+
+
+<section id="order" class="order-wrap">
+<div class="shell order-grid"><div class="order-intro"><h2>Подготовить бриф для расчёта</h2><p>Опишите конструкцию и место установки. По этим данным можно обсудить материалы, монтаж и сроки.</p><div class="quick-picks"><button type="button" data-product="Неоновая надпись" class="quick-choice">Неоновая надпись</button><button type="button" data-product="Логотип для бизнеса" class="quick-choice">Логотип для бизнеса</button><button type="button" data-product="Неоновое панно" class="quick-choice">Неоновое панно</button></div></div>
+<form id="brief" class="order-box">
+<div class="form-grid">
+<label class="wide"><span>Вид заказа</span><select name="product" required><option value="">Выберите услугу</option><option value="Неоновая надпись">Неоновая надпись</option><option value="Логотип для бизнеса">Логотип для бизнеса</option><option value="Неоновое панно">Неоновое панно</option><option value="Макет на фотографии">Макет на фотографии</option></select></label>
+<label class=""><span>Ширина × высота, см</span><input type="text" name="size"></label><label class=""><span>Место размещения</span><select name="placement"><option value="">Выбрать</option><option value="Фасад">Фасад</option><option value="Интерьер">Интерьер</option><option value="Витрина">Витрина</option></select></label><label class=""><span>Цвет или оттенок свечения</span><input type="text" name="color"></label><label class=""><span>Питание</span><select name="power"><option value="">Выбрать</option><option value="От розетки">От розетки</option><option value="От аккумулятора">От аккумулятора</option><option value="Нужно подобрать">Нужно подобрать</option></select></label><label class=""><span>Город доставки</span><input type="text" name="delivery_city"></label><label class=""><span>Желаемая дата</span><input type="date" name="date"></label><label class="wide"><span>Макет или фото объекта</span><input type="file" name="file" aria-describedby="file-hint"><small id="file-hint">Подойдёт фото места размещения, изображение логотипа или эскиз надписи.</small></label><label class=""><span>Телефон для ответа (необязательно)</span><input type="tel" name="contact" placeholder="+7 (___) ___-__-__" autocomplete="tel"></label>
+</div>
+
+<button class="cta" type="submit">Сформировать бриф <span aria-hidden="true">↗</span></button>
+<small>Демонстрационная форма. Введённые данные остаются в браузере.</small>
+<div class="summary" id="brief-summary" tabindex="-1" hidden><pre id="summary-text"></pre>
+<button class="cta secondary" type="button" id="copy-brief">Копировать</button>
+<button class="cta secondary" type="button" id="download-brief">Скачать текст</button>
+<span id="copy-status" role="status"></span></div>
+</form></div></section>
+<section id="terms" class="section shell"><div class="section-lead"><h2>Условия заказа</h2><p>Итоговые параметры, стоимость и дату выполнения подтверждает компания.</p></div><div class="facts"><details><summary>В FAQ проекта перечислены вводные расчёта: размеры, изображение, место размещения и дополнительные особенности.</summary><p><a href="https://neonroomnn.ru/">Источник на сайте компании ↗</a></p></details><details><summary>По фото места установки компания может подготовить визуализацию. Макет согласуется до производства.</summary><p><a href="https://neonroomnn.ru/">Источник на сайте компании ↗</a></p></details></div></section>
+</main>
+<footer id="contacts" class="contacts"><div class="shell">
+<div><h3>Neonroom.nn</h3><p>Нижний Новгород · ул. Нартова, 2В</p><div class="footer-links"><a href="tel:+79108809650">+7 (910) 880-96-50</a><a href="mailto:neonroomnn@mail.ru">neonroomnn@mail.ru</a><a href="https://neonroomnn.ru/">neonroomnn.ru</a></div></div>
+<div><p>Демонстрационная версия по открытым материалам компании.</p><div class="footer-links"><a href="https://client-space.ru/">Сайт студии ClientSpace ↗</a></div></div>
+</div></footer>
+</body></html>

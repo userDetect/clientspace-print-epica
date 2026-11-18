@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="print-demo-id" content="vyksa">
+<meta name="business" content="Выксунская типография">
+<meta name="description" content="Печать книг, газет и полиграфии, вёрстка и переплёт в Выксе. Соберите параметры издания для индивидуального расчёта.">
+<title>Выксунская типография · концепт сайта ClientSpace</title>
+<link rel="stylesheet" href="site.css">
+<style>:root{--accent:#2d506b;--cover:color-mix(in srgb,#2d506b,#10151c 62%);--cover-tint:color-mix(in srgb,#2d506b,#fff9ee 87%)}</style>
+<script src="site.js" defer></script>
+</head>
+<body class="press variant-0">
+<div class="demo-bar"><div class="shell"><span>Демо-концепт студии ClientSpace</span><a href="https://phpress.ru/" rel="noopener">Действующий сайт ↗</a></div></div>
+<header class="site-header"><div class="shell">
+<a class="brand" href="#top"><span class="mark" aria-hidden="true">В</span>Выксунская типография</a>
+<nav aria-label="Разделы сайта"><a href="#catalog">Продукция и услуги</a><a href="#terms">Условия</a><a href="#contacts">Контакты</a></nav>
+<a class="cta secondary" href="#order">Заполнить бриф <span aria-hidden="true">↘</span></a>
+</div></header>
+<main id="top">
+<div class="shell"><section class="hero" aria-labelledby="hero-title">
+<div class="hero-copy"><p class="eyebrow">Выкса · Типография и издательство</p><h1 id="hero-title">От рукописи до тиража</h1><p>Печать книг, газет и полиграфии, вёрстка и переплёт в Выксе. Соберите параметры издания для индивидуального расчёта.</p>
+<div class="hero-actions"><a class="cta" href="#order">Подготовить бриф для расчёта <span aria-hidden="true">↘</span></a><a class="cta secondary" href="#catalog">Посмотреть услуги</a></div>
+</div><figure class="hero-art" aria-hidden="true"><div class="ink-art"><div class="sheet"></div><div class="sheet"></div><div class="sheet"><span>ВЫ</span></div></div></figure></section></div>
+<section id="catalog" class="section shell">
+<div class="section-lead"><h2>Продукция и услуги</h2><label class="catalog-search"><span>Найти услугу</span><input id="catalog-search" type="search" placeholder="Начните вводить название"></label></div>
+<div class="products"><article class="product" data-catalog-item><div><h3>Книги</h3><p>От одного экземпляра до нескольких тысяч. Твёрдый и мягкий переплёт, пружина или скрепка.</p></div><button type="button" data-product="Книги" aria-label="В бриф — Книги">↗</button></article><article class="product" data-catalog-item><div><h3>Газеты</h3><p>Тиражи от 500 экземпляров. Возможны нестандартный формат, цветность, количество полос и мелованная обложка.</p></div><button type="button" data-product="Газеты" aria-label="В бриф — Газеты">↗</button></article><article class="product" data-catalog-item><div><h3>Рекламная полиграфия</h3><p>Листовки, плакаты, визитки и буклеты. Ламинирование, вырубка, тиснение и конгрев.</p></div><button type="button" data-product="Рекламная полиграфия" aria-label="В бриф — Рекламная полиграфия">↗</button></article><article class="product" data-catalog-item><div><h3>Бланочная продукция</h3><p>Стандартные и заказные бланки, журналы для учёта и нумерованные квитанции.</p></div><button type="button" data-product="Бланочная продукция" aria-label="В бриф — Бланочная продукция">↗</button></article><article class="product" data-catalog-item><div><h3>Вёрстка и макеты</h3><p>Издательский отдел помогает с концепцией, подготовкой макета и вёрсткой издания.</p></div><button type="button" data-product="Вёрстка и макеты" aria-label="В бриф — Вёрстка и макеты">↗</button></article></div><p id="no-products" hidden>По этому запросу ничего не найдено.</p>
+</section>
+
+<section class="shell short-section"><div class="note">
+<h2>Тиражи и подготовка файлов</h2><div><p>На сайте указаны книги от 1 экземпляра и газеты от 500 экземпляров. Для каждого способа печати есть свои требования к файлам.</p><a href="https://phpress.ru/tech/">Подробнее на действующем сайте ↗</a></div></div></section>
+<section id="order" class="order-wrap">
+<div class="shell order-grid"><div class="order-intro"><h2>Подготовить бриф для расчёта</h2><p>Укажите изделие и параметры заказа. По ним можно согласовать технологию, стоимость и срок.</p><div class="quick-picks"><button type="button" data-product="Книги" class="quick-choice">Книги</button><button type="button" data-product="Газеты" class="quick-choice">Газеты</button><button type="button" data-product="Рекламная полиграфия" class="quick-choice">Рекламная полиграфия</button></div></div>
+<form id="brief" class="order-box">
+<div class="form-grid">
+<label class="wide"><span>Вид заказа</span><select name="product" required><option value="">Выберите услугу</option><option value="Книги">Книги</option><option value="Газеты">Газеты</option><option value="Рекламная полиграфия">Рекламная полиграфия</option><option value="Бланочная продукция">Бланочная продукция</option><option value="Вёрстка и макеты">Вёрстка и макеты</option></select></label>
+<label class=""><span>Формат издания</span><input type="text" name="format"></label><label class=""><span>Количество полос</span><input type="number" name="pages" min="1" step="any"></label><label class=""><span>Тираж, экз.</span><input type="number" name="quantity" min="1" step="any"></label><label class="" data-products="0" hidden><span>Переплёт или скрепление</span><select name="binding"><option value="">Выбрать</option><option value="Подберите вариант">Подберите вариант</option><option value="Твёрдый переплёт">Твёрдый переплёт</option><option value="Мягкий переплёт">Мягкий переплёт</option><option value="Скрепка">Скрепка</option><option value="Пружина">Пружина</option></select></label><label class=""><span>Цветность и бумага</span><input type="text" name="ink"></label><label class=""><span>Самовывоз или город доставки</span><input type="text" name="delivery"></label><label class=""><span>Дата готовности</span><input type="date" name="deadline"></label><label class=""><span>Бумага или плотность</span><input type="text" name="paper"></label><label class=""><span>Готовность макета</span><select name="artwork_ready"><option value="">Выбрать</option><option value="Макет готов">Макет готов</option><option value="Есть рукопись">Есть рукопись</option><option value="Нужна подготовка">Нужна подготовка</option></select></label><label class="wide"><span>Макет или материалы</span><input type="file" name="artwork" aria-describedby="file-hint"><small id="file-hint">Для газет и книг действуют разные технические требования. Перед печатью уточните параметры по ссылке ниже.</small></label><label class=""><span>Телефон для ответа (необязательно)</span><input type="tel" name="contact" placeholder="+7 (___) ___-__-__" autocomplete="tel"></label>
+</div>
+
+<button class="cta" type="submit">Сформировать бриф <span aria-hidden="true">↗</span></button>
+<small>Демонстрационная форма. Введённые данные остаются в браузере.</small>
+<div class="summary" id="brief-summary" tabindex="-1" hidden><pre id="summary-text"></pre>
+<button class="cta secondary" type="button" id="copy-brief">Копировать</button>
+<button class="cta secondary" type="button" id="download-brief">Скачать текст</button>
+<span id="copy-status" role="status"></span></div>
+</form></div></section>
+<section id="terms" class="section shell"><div class="section-lead"><h2>Условия заказа</h2><p>Итоговые параметры, стоимость и дату выполнения подтверждает компания.</p></div><div class="facts"><details><summary>Книжные тиражи от одного экземпляра, газетные от 500. На сайте указан собственный переплётный цех.</summary><p><a href="https://phpress.ru/products/">Источник на сайте компании ↗</a></p></details><details><summary>Для газет и для офсетной или цифровой печати опубликованы отдельные технические требования.</summary><p><a href="https://phpress.ru/tech/">Источник на сайте компании ↗</a></p></details><details><summary>Для заказов предназначен общий email отдела по работе с клиентами.</summary><p><a href="https://phpress.ru/contacts/">Источник на сайте компании ↗</a></p></details></div></section>
+</main>
+<footer id="contacts" class="contacts"><div class="shell">
+<div><h3>Выксунская типография</h3><p>Выкса · Выкса, ул. Вавилина, 10</p><div class="footer-links"><a href="tel:+79103802829">+7 (910) 380-28-29</a><a href="mailto:hello@vyksaprint.ru">hello@vyksaprint.ru</a><a href="https://phpress.ru/">phpress.ru</a></div></div>
+<div><p>Демонстрационная версия по открытым материалам компании.</p><div class="footer-links"><a href="https://client-space.ru/">Сайт студии ClientSpace ↗</a></div></div>
+</div></footer>
+</body></html>

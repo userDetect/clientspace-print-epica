@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="print-demo-id" content="ajaxs">
+<meta name="business" content="2 Аякса">
+<meta name="description" content="Цифровая, офсетная, широкоформатная и интерьерная печать в Сарове. От визиток и бланков до сувениров и баннеров.">
+<title>2 Аякса · концепт сайта ClientSpace</title>
+<link rel="stylesheet" href="site.css">
+<style>:root{--accent:#644bb0;--cover:color-mix(in srgb,#644bb0,#10151c 62%);--cover-tint:color-mix(in srgb,#644bb0,#fff9ee 87%)}</style>
+<script src="site.js" defer></script>
+</head>
+<body class="press variant-1">
+<div class="demo-bar"><div class="shell"><span>Демо-концепт студии ClientSpace</span><a href="https://2ajaxs.com/" rel="noopener">Действующий сайт ↗</a></div></div>
+<header class="site-header"><div class="shell">
+<a class="brand" href="#top"><span class="mark" aria-hidden="true">2</span>2 Аякса</a>
+<nav aria-label="Разделы сайта"><a href="#catalog">Продукция и услуги</a><a href="#terms">Условия</a><a href="#contacts">Контакты</a></nav>
+<a class="cta secondary" href="#order">Заполнить бриф <span aria-hidden="true">↘</span></a>
+</div></header>
+<main id="top">
+<div class="shell"><section class="hero" aria-labelledby="hero-title">
+<div class="hero-copy"><p class="eyebrow">Саров · Типография</p><h1 id="hero-title">Печатная продукция, которая решает задачу</h1><p>Цифровая, офсетная, широкоформатная и интерьерная печать в Сарове. От визиток и бланков до сувениров и баннеров.</p>
+<div class="hero-actions"><a class="cta" href="#order">Подготовить бриф для расчёта <span aria-hidden="true">↘</span></a><a class="cta secondary" href="#catalog">Посмотреть услуги</a></div>
+</div><figure class="hero-art with-photo"><img src="photo-1.webp" alt="Работа из портфолио 2 Аякса" fetchpriority="high"><figcaption>Работа из портфолио 2 Аякса</figcaption></figure></section></div>
+<section id="catalog" class="section shell">
+<div class="section-lead"><h2>Продукция и услуги</h2><label class="catalog-search"><span>Найти услугу</span><input id="catalog-search" type="search" placeholder="Начните вводить название"></label></div>
+<div class="products"><article class="product" data-catalog-item><div><h3>Оперативная полиграфия</h3><p>Афиши, листовки, визитки и брошюры.</p></div><button type="button" data-product="Оперативная полиграфия" aria-label="В бриф — Оперативная полиграфия">↗</button></article><article class="product" data-catalog-item><div><h3>Сувенирная продукция</h3><p>Магниты, ручки, кружки и футболки.</p></div><button type="button" data-product="Сувенирная продукция" aria-label="В бриф — Сувенирная продукция">↗</button></article><article class="product" data-catalog-item><div><h3>Бизнес-полиграфия</h3><p>Печати и штампы, бейджи, бланки и журналы.</p></div><button type="button" data-product="Бизнес-полиграфия" aria-label="В бриф — Бизнес-полиграфия">↗</button></article><article class="product" data-catalog-item><div><h3>Широкоформатная печать</h3><p>Флаги, баннеры, фотообои и мобильные стенды.</p></div><button type="button" data-product="Широкоформатная печать" aria-label="В бриф — Широкоформатная печать">↗</button></article><article class="product" data-catalog-item><div><h3>Дизайн и наружная реклама</h3><p>Собственная дизайн-студия. Помощь с проектированием наружной и внутренней рекламы.</p></div><button type="button" data-product="Дизайн и наружная реклама" aria-label="В бриф — Дизайн и наружная реклама">↗</button></article></div><p id="no-products" hidden>По этому запросу ничего не найдено.</p>
+</section>
+<section id="works" class="section shell"><div class="section-lead"><h2>Примеры</h2></div><div class="gallery"><figure><img src="photo-2.webp" alt="Образец печати из портфолио" loading="lazy"><figcaption>Образец печати из портфолио</figcaption></figure><figure><img src="photo-3.webp" alt="Пример продукции типографии" loading="lazy"><figcaption>Пример продукции типографии</figcaption></figure></div></section>
+
+<section id="order" class="order-wrap">
+<div class="shell order-grid"><div class="order-intro"><h2>Подготовить бриф для расчёта</h2><p>Укажите изделие и параметры заказа. По ним можно согласовать технологию, стоимость и срок.</p><div class="quick-picks"><button type="button" data-product="Оперативная полиграфия" class="quick-choice">Оперативная полиграфия</button><button type="button" data-product="Сувенирная продукция" class="quick-choice">Сувенирная продукция</button><button type="button" data-product="Бизнес-полиграфия" class="quick-choice">Бизнес-полиграфия</button></div></div>
+<form id="brief" class="order-box">
+<div class="form-grid">
+<label class="wide"><span>Вид заказа</span><select name="product" required><option value="">Выберите услугу</option><option value="Оперативная полиграфия">Оперативная полиграфия</option><option value="Сувенирная продукция">Сувенирная продукция</option><option value="Бизнес-полиграфия">Бизнес-полиграфия</option><option value="Широкоформатная печать">Широкоформатная печать</option><option value="Дизайн и наружная реклама">Дизайн и наружная реклама</option></select></label>
+<label class=""><span>Тираж, шт.</span><input type="number" name="quantity" min="1" step="any"></label><label class=""><span>Формат или габариты</span><input type="text" name="size"></label><label class=""><span>Бумага, материал или изделие</span><input type="text" name="material"></label><label class=""><span>Готовность макета</span><select name="layout"><option value="">Выбрать</option><option value="Файл готов">Файл готов</option><option value="Есть пример">Есть пример</option><option value="Нужен дизайн">Нужен дизайн</option></select></label><label class=""><span>Получение</span><select name="delivery"><option value="">Выбрать</option><option value="Самовывоз">Самовывоз</option><option value="Доставка по Сарову">Доставка по Сарову</option><option value="Уточнить">Уточнить</option></select></label><label class=""><span>К какой дате нужно</span><input type="date" name="deadline"></label><label class="wide"><span>Макет или фото</span><input type="file" name="artwork" aria-describedby="file-hint"><small id="file-hint">Можно указать макет, чертёж или фото. В демо сохранится имя файла.</small></label><label class=""><span>Телефон для ответа (необязательно)</span><input type="tel" name="contact" placeholder="+7 (___) ___-__-__" autocomplete="tel"></label>
+</div>
+
+<button class="cta" type="submit">Сформировать бриф <span aria-hidden="true">↗</span></button>
+<small>Демонстрационная форма. Введённые данные остаются в браузере.</small>
+<div class="summary" id="brief-summary" tabindex="-1" hidden><pre id="summary-text"></pre>
+<button class="cta secondary" type="button" id="copy-brief">Копировать</button>
+<button class="cta secondary" type="button" id="download-brief">Скачать текст</button>
+<span id="copy-status" role="status"></span></div>
+</form></div></section>
+<section id="terms" class="section shell"><div class="section-lead"><h2>Условия заказа</h2><p>Итоговые параметры, стоимость и дату выполнения подтверждает компания.</p></div><div class="facts"><details><summary>Типография указывает четыре главных направления: оперативная печать, сувениры, бизнес-полиграфия и широкоформатная печать.</summary><p><a href="https://2ajaxs.com/">Источник на сайте компании ↗</a></p></details><details><summary>Указаны собственная дизайн-студия и доставка по Сарову.</summary><p><a href="https://2ajaxs.com/">Источник на сайте компании ↗</a></p></details></div></section>
+</main>
+<footer id="contacts" class="contacts"><div class="shell">
+<div><h3>2 Аякса</h3><p>Саров · Саров, ул. Юности, 15</p><div class="footer-links"><a href="tel:+78313095555">+7 (83130) 9-55-55</a><a href="mailto:info@2ajaxs.com">info@2ajaxs.com</a><a href="https://2ajaxs.com/">2ajaxs.com</a></div></div>
+<div><p>Демонстрационная версия по открытым материалам компании.</p><div class="footer-links"><a href="https://client-space.ru/">Сайт студии ClientSpace ↗</a></div></div>
+</div></footer>
+</body></html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="print-demo-id" content="artik">
+<meta name="business" content="АРТиК">
+<meta name="description" content="Световые буквы, неон и фасадные конструкции. Для расчёта можно описать будущую вывеску и подготовить фото места установки.">
+<title>АРТиК · концепт сайта ClientSpace</title>
+<link rel="stylesheet" href="site.css">
+<style>:root{--accent:#154b5f;--cover:color-mix(in srgb,#154b5f,#10151c 62%);--cover-tint:color-mix(in srgb,#154b5f,#fff9ee 87%)}</style>
+<script src="site.js" defer></script>
+</head>
+<body class="signage variant-2">
+<div class="demo-bar"><div class="shell"><span>Демо-концепт студии ClientSpace</span><a href="https://artiknn.ru/" rel="noopener">Действующий сайт ↗</a></div></div>
+<header class="site-header"><div class="shell">
+<a class="brand" href="#top"><span class="mark" aria-hidden="true">А</span>АРТиК</a>
+<nav aria-label="Разделы сайта"><a href="#catalog">Конструкции и услуги</a><a href="#terms">Условия</a><a href="#contacts">Контакты</a></nav>
+<a class="cta secondary" href="#order">Заполнить бриф <span aria-hidden="true">↘</span></a>
+</div></header>
+<main id="top">
+<div class="shell"><section class="hero" aria-labelledby="hero-title">
+<div class="hero-copy"><p class="eyebrow">Нижний Новгород · Вывески</p><h1 id="hero-title">Вывески от эскиза до монтажа</h1><p>Световые буквы, неон и фасадные конструкции. Для расчёта можно описать будущую вывеску и подготовить фото места установки.</p>
+<div class="hero-actions"><a class="cta" href="#order">Подготовить бриф для расчёта <span aria-hidden="true">↘</span></a><a class="cta secondary" href="#catalog">Посмотреть услуги</a></div>
+</div><figure class="hero-art" aria-hidden="true"><div class="ink-art"><div class="sign-plate"><span>АР</span></div></div></figure></section></div>
+<section id="catalog" class="section shell">
+<div class="section-lead"><h2>Конструкции и услуги</h2><label class="catalog-search"><span>Найти услугу</span><input id="catalog-search" type="search" placeholder="Начните вводить название"></label></div>
+<div class="products"><article class="product" data-catalog-item><div><h3>Фасадная вывеска</h3><p>Рекламная конструкция для входной группы или фасада.</p></div><button type="button" data-product="Фасадная вывеска" aria-label="В бриф — Фасадная вывеска">↗</button></article><article class="product" data-catalog-item><div><h3>Световые объёмные буквы</h3><p>Логотип и отдельные буквы с подсветкой.</p></div><button type="button" data-product="Световые объёмные буквы" aria-label="В бриф — Световые объёмные буквы">↗</button></article><article class="product" data-catalog-item><div><h3>Неоновая вывеска</h3><p>Световая надпись для оформления пространства.</p></div><button type="button" data-product="Неоновая вывеска" aria-label="В бриф — Неоновая вывеска">↗</button></article><article class="product" data-catalog-item><div><h3>Проект и монтаж</h3><p>Дизайн, изготовление, согласование и установка вывески.</p></div><button type="button" data-product="Проект и монтаж" aria-label="В бриф — Проект и монтаж">↗</button></article></div><p id="no-products" hidden>По этому запросу ничего не найдено.</p>
+</section>
+
+
+<section id="order" class="order-wrap">
+<div class="shell order-grid"><div class="order-intro"><h2>Подготовить бриф для расчёта</h2><p>Опишите конструкцию и место установки. По этим данным можно обсудить материалы, монтаж и сроки.</p><div class="quick-picks"><button type="button" data-product="Фасадная вывеска" class="quick-choice">Фасадная вывеска</button><button type="button" data-product="Световые объёмные буквы" class="quick-choice">Световые объёмные буквы</button><button type="button" data-product="Неоновая вывеска" class="quick-choice">Неоновая вывеска</button></div></div>
+<form id="brief" class="order-box">
+<div class="form-grid">
+<label class="wide"><span>Вид заказа</span><select name="product" required><option value="">Выберите услугу</option><option value="Фасадная вывеска">Фасадная вывеска</option><option value="Световые объёмные буквы">Световые объёмные буквы</option><option value="Неоновая вывеска">Неоновая вывеска</option><option value="Проект и монтаж">Проект и монтаж</option></select></label>
+<label class=""><span>Ширина × высота, см</span><input type="text" name="size"></label><label class=""><span>Место размещения</span><select name="placement"><option value="">Выбрать</option><option value="Фасад">Фасад</option><option value="Интерьер">Интерьер</option><option value="Витрина">Витрина</option></select></label><label class=""><span>Адрес объекта</span><input type="text" name="address"></label><label class=""><span>Монтаж</span><select name="installation"><option value="">Выбрать</option><option value="Нужен">Нужен</option><option value="Своими силами">Своими силами</option><option value="Нужно обсудить">Нужно обсудить</option></select></label><label class=""><span>Согласование</span><select name="approval"><option value="">Выбрать</option><option value="Нужно">Нужно</option><option value="Не нужно">Не нужно</option><option value="Уточнить">Уточнить</option></select></label><label class="wide"><span>Макет или фото объекта</span><input type="file" name="file" aria-describedby="file-hint"><small id="file-hint">Можно указать макет, чертёж или фото. В демо сохранится имя файла.</small></label><label class=""><span>Телефон для ответа (необязательно)</span><input type="tel" name="contact" placeholder="+7 (___) ___-__-__" autocomplete="tel"></label>
+</div>
+
+<button class="cta" type="submit">Сформировать бриф <span aria-hidden="true">↗</span></button>
+<small>Демонстрационная форма. Введённые данные остаются в браузере.</small>
+<div class="summary" id="brief-summary" tabindex="-1" hidden><pre id="summary-text"></pre>
+<button class="cta secondary" type="button" id="copy-brief">Копировать</button>
+<button class="cta secondary" type="button" id="download-brief">Скачать текст</button>
+<span id="copy-status" role="status"></span></div>
+</form></div></section>
+<section id="terms" class="section shell"><div class="section-lead"><h2>Условия заказа</h2><p>Итоговые параметры, стоимость и дату выполнения подтверждает компания.</p></div><div class="facts"><details><summary>На исходном сайте есть направления по фасадам, объёмным буквам и неоновым вывескам.</summary><p><a href="https://artiknn.ru/">Источник на сайте компании ↗</a></p></details><details><summary>Компания предлагает согласование и монтаж изготовленных конструкций.</summary><p><a href="https://artiknn.ru/">Источник на сайте компании ↗</a></p></details></div></section>
+</main>
+<footer id="contacts" class="contacts"><div class="shell">
+<div><h3>АРТиК</h3><p>Нижний Новгород · ул. Артельная, 21а</p><div class="footer-links"><a href="tel:+78314234923">+7 (831) 423-49-23</a><a href="mailto:artik-nn@mail.ru">artik-nn@mail.ru</a><a href="https://artiknn.ru/">artiknn.ru</a></div></div>
+<div><p>Демонстрационная версия по открытым материалам компании.</p><div class="footer-links"><a href="https://client-space.ru/">Сайт студии ClientSpace ↗</a></div></div>
+</div></footer>
+</body></html>
