@@ -6,10 +6,10 @@ const count = document.querySelector('#results');
 const detail = document.querySelector('#detail');
 const content = document.querySelector('#detail-content');
 const storageKey = 'clientspace-print-outreach-v1';
-const localPreview = ['localhost', '127.0.0.1'].includes(location.hostname);
+const localPreview = location.protocol === 'file:' || ['localhost', '127.0.0.1'].includes(location.hostname);
 
 function demoLink(record) {
-  return localPreview ? '../demos/' + encodeURIComponent(record.slug) + '/' : record.demo;
+  return localPreview ? '../demos/' + encodeURIComponent(record.slug) + '/index.html' : record.demo;
 }
 let flags = {};
 try { flags = JSON.parse(localStorage.getItem(storageKey) || '{}') || {}; } catch {}
